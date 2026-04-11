@@ -14,8 +14,19 @@
 
 //Arrays
 let userData = [10, "hello", false, 9.11, 'h'];
-for(let index=0; index< userData.length;index++){
-    console.log(typeof userData[index]);
+// for(let index=0; index< userData.length;index++){
+//     console.log(typeof userData[index]);
     
-}
-let A=[1,2,3,4,5];
+// }
+// let A=[1,2,3,4,5];
+console.log(userData);
+
+// userData.push(20)
+// userData.pop(10)
+userData.shift()
+userData.unshift("kavya")
+
+
+console.log(userData);
+
+
