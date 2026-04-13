@@ -41,10 +41,36 @@
 // }
 // console.log(add(36, 6));
 
-const myFun=function add(num1,num2){
-    return num1+num2
+// const myFun=function add(num1,num2){
+//     return num1+num2
+// }
+// console.log(myFun(33,3));
+
+// Task: 1 
+const doMath = (num1, num2, op) => {
+    switch (op) {
+        case "+":
+            console.log(`The addition of ${num1} and ${num2} is ${num1 + num2} `);
+            break;
+        case "-":
+            console.log(`The subtraction of ${num1} and ${num2} is ${num1 - num2} `);
+            break;
+        case "*":
+            console.log(`The multiplication of ${num1} and ${num2} is ${num1 * num2} `);
+            break;
+        case "/":
+            console.log(`The division of ${num1} and ${num2} is ${num1 / num2} `);
+            break;
+        case "%":
+            console.log(`The reminder of ${num1} and ${num2} is ${num1 % num2} `);
+            break;
+        case "**":
+            console.log(`The power of ${num1} and ${num2} is ${num1 ** num2} `);
+            break;
+        default:
+            console.log("Please pass a Valid Input");
+            break;
+    }
 }
-console.log(myFun(33,3));
 
-
- 
+doMath(2, 3, "*")
